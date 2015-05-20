@@ -1,0 +1,50 @@
+* {
+
+  font-family: 'Droid Serif', serif;
+  font-weight: 400px;
+
+}
+
+
+
+body {
+
+  margin-left: 486px;
+}
+
+
+.container {
+  width: 600px;
+
+}
+
+section {
+  border: 1px solid #00C6D6;
+  font-family: tahoma;
+  font-weight: lighter;
+}
+
+section h2 {
+  color: white;
+  margin: 0;
+  padding: 10px;
+  background-color: #00C6D6;
+}
+
+h2:hover {
+  cursor: pointer;
+  background: blue;
+
+}
+
+p {
+  padding: 30px;
+}
+
+
+
+.accordion {
+  height: 216px;
+
+
+}
