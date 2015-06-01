@@ -1,9 +1,4 @@
-* {
 
-  font-family: 'Droid Serif', serif;
-  font-weight: 400px;
-
-}
 
 
 
@@ -22,13 +17,24 @@ section {
   border: 1px solid #00C6D6;
   font-family: tahoma;
   font-weight: lighter;
+  transition: 1s ease;
+  overflow: hidden;
 }
 
-section h2 {
+section {
   color: white;
   margin: 0;
   padding: 10px;
   background-color: #00C6D6;
+  height: 40px;
+}
+
+.first-section {
+  height: 242px;
+}
+
+h2 {
+  height: 35px;
 }
 
 h2:hover {
@@ -39,9 +45,16 @@ h2:hover {
 
 p {
   padding: 30px;
+  height: 100px;
 }
 
+section p {
+  overflow: auto;
+  height: 150px;
+  margin: 0;
 
+
+}
 
 .accordion {
   height: 216px;

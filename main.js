@@ -1,4 +1,17 @@
-$('section').on ('click', function () {
-  $('section').removeClass('accordion');
-  $(this).addClass('accordion');
+$('section').on('click' , function() {
+
+$('section').removeClass('first-section');
+
+$(this).addClass('first-section');
+
+
+
 });
+
+
+
+
+
+
+
+
